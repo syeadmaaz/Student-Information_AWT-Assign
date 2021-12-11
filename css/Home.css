@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header {
+  font-family: Poppins;
+  background-color: #053742;
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+.header p {
+  margin: 0;
+}
+
+
+.logout {
+  font-family: Poppins;
+  padding: 12px;
+  background-color: #13b120;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  border: white;
+}
+
+
+.logout:hover {
+  background-color: blue;
+}
+
+.buttons_field {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clicks {
+  padding: 25px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.clicks button {
+  font-family: Poppins;
+  padding: 12px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #13b120;
+  border: none;
+  box-shadow: 0px 0px 10px white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.clicks button:hover {
+  background-color: #053742;
+}
+
+img {
+  max-width: 306px;
+  max-height: 220px;
+  object-fit: contain;
+}
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+
+}
+.sports {
+  font-family: Poppins;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #053742;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.foot {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #053742;
+  font-size: 1.2rem;
+  color: white;
+}
